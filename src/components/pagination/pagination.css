@@ -1,0 +1,45 @@
+ul.pagination {
+    display: flex;
+    justify-content: center;
+    border-radius: 10px;
+    list-style: none;
+}
+
+li.page-item {
+    
+    text-decoration: none;
+    font-weight: 600;
+    font-size: 1rem;
+    color: #111;
+    background: #ffbb00;
+}
+
+a.page-link {
+    color: #111;
+    padding: 20px;
+    background: #ffbb00;
+    text-decoration: none;
+    font-size: 1rem;
+}
+a.page-link:hover{
+    background-color: #111;
+    color: #fff;
+}
+span.page-link:hover{
+    background-color: #111;
+    color: #fff;
+}
+span.page-link {
+    color: #111;
+    padding: 20px;
+    background: #ffbb00;
+    text-decoration: none;
+    font-size: 1rem;
+}
+select.select.form-select.form-select-sm {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 16px;
+    margin: 2rem auto;
+}
